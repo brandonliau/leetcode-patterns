@@ -1,16 +1,13 @@
-def move_left():
-    return
-
-def move_right():
+def condition():
     return
 
 # Generic setup for two pointers
-def two_pointers(input: list):
-    left, right = 0, len(input) - 1
+def two_pointers(data: list):
+    left, right = 0, len(data) - 1
     while left < right:
-        # PROCESS input[left] AND input[right]
-        if move_left():
+        # PROCESS data[left] AND data[right]
+        if condition():
             left += 1
-        elif move_right():
+        else:
             right -= 1
     return
