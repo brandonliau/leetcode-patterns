@@ -1,6 +1,6 @@
 import heapq
 
-# Get top k smallest elements from an array
+# Get the top k smallest elements from an array
 def top_k_smallest_elements(data: list, k: int) -> list:
     if k <= 0 or not data:
         return []
@@ -14,7 +14,7 @@ def top_k_smallest_elements(data: list, k: int) -> list:
         ans.append(-val)
     return ans
 
-# Get top k largest elements from an array
+# Get the top k largest elements from an array
 def top_k_largest_elements(data: list, k: int) -> list:
     if k <= 0 or not data:
         return []
